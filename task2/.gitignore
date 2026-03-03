@@ -1,0 +1,25 @@
+# Node & npm
+node_modules/
+package-lock.json
+
+# environment files
+selenium-env/
+.env
+.env.*
+.venv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# editor & IDE settings
+.vscode/
+.idea/
+
+# logs and temporary files
+*.log
+*.tmp
+
+__pycache__/
+.pytest_cache/
+*.pyc
