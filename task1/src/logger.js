@@ -1,3 +1,15 @@
+/**
+ * @file logger.js
+ * @description
+ * Configures and exports a Winston logger instance used in the application.
+ * The logger outputs JSON-formatted log entries with timestamps to both the
+ * console and log files.
+ *
+ * Log files:
+ * - logs/error.log (error-level logs)
+ * - logs/combined.log (all logs)
+ */
+
 const { createLogger, transports, format } = require("winston");
 
 const logger = createLogger({
