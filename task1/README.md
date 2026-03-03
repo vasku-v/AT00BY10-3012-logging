@@ -21,22 +21,22 @@ to the console and to log files.
 
 ## Installation
 
-#### Initialize the project
+### Initialize the project
 
 git init  
 npm init -y
 
-#### Install Winston
+### Install Winston
 
 npm install --save winston@3.11.0
 
 ## Running the Application
 
-#### Run the program:
+### Run the program:
 
 node src/main.js
 
-#### Log output appears:
+### Log output appears:
 
 - in the console
 - in logs/error.log (error-level logs)
@@ -44,7 +44,7 @@ node src/main.js
 
 ## Tests
 
-#### Smoke test
+### Smoke test
 
 A simple smoke test was performed to verify the basic functionality of the
 logger.
