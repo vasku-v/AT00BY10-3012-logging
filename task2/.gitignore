@@ -19,6 +19,7 @@ Thumbs.db
 # logs and temporary files
 *.log
 *.tmp
+logs/
 
 __pycache__/
 .pytest_cache/
