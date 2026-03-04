@@ -12,12 +12,12 @@ to the console and to log files.
 ## Project Structure
 
 .  
--- .gitignore  
--- package.json  
--- README  
--- src  
----- logger.js  
----- main.js
+├── src/  
+│ ├── logger.js  
+│ └── main.js  
+├── .gitignore  
+├── README.md  
+└── package.json
 
 ## Installation
 
@@ -46,8 +46,7 @@ node src/main.js
 
 ### Smoke test
 
-A simple smoke test was performed to verify the basic functionality of the
-logger.
+A smoke test was performed to verify the basic functionality of the logger.
 
 The program was executed using:
 
