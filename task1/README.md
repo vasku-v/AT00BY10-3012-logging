@@ -15,9 +15,9 @@ to the console and to log files.
 -- .gitignore  
 -- package.json  
 -- README  
--- src  
----- logger.js  
----- main.js
+-- src/  
+----- logger.js  
+----- main.js
 
 ## Installation
 
