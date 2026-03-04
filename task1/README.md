@@ -12,12 +12,12 @@ to the console and to log files.
 ## Project Structure
 
 .  
-├── src/  
-│ ├── logger.js  
-│ └── main.js  
-├── .gitignore  
-├── README.md  
-└── package.json
+-- .gitignore  
+-- package.json  
+-- README  
+-- src  
+---- logger.js  
+---- main.js
 
 ## Installation
 
