@@ -1,4 +1,4 @@
-# Task 1 - Tally counter REST API
+# Task 2 - Tally counter REST API
 
 A simple REST API built with **Node.js**, **Express** and **Winston** that
 implements a persistent in-memory tally counter. The API supports reading,
@@ -76,31 +76,27 @@ Express application instance.
 
 ### Test types
 
-### Unit test
-
-- counter.unit.test.js
+### Unit test (counter.unit.test.js)
 
 The unit tests are implemented using Mocha together with Chai's Expect style.
 All tests are placed in one suite. The tests validate the internal logic of the
 counter module:
 
-- **readCounter()** returns the correct value
-- **increaseCounter()** increments the value
-- **resetCounter()** resets the value to zero
+- **readCounter()** → returns the correct value
+- **increaseCounter()** → increments the value
+- **resetCounter()** → resets the value to zero
 
 Unit tests ensure that the core functionality works independently of Express or
 HTTP routing.
 
-### Integration test
-
-- counter.api.test.js
+### Integration test (counter.api.test.js)
 
 Integration tests verify that the REST API endpoints behave correctly when
 accessed through HTTP requests simulated by SuperTest:
 
-- **GET /counter-read** returns the current counter value
-- **GET /counter-increase** increments the counter
-- **GET /counter-reset** resets the counter
+- **GET /counter-read** → returns the current counter value
+- **GET /counter-increase** → increments the counter
+- **GET /counter-reset** → resets the counter
 
 These tests confirm that routing, JSON responses and state changes work together
 as expected.
@@ -113,3 +109,9 @@ A basic smoke test was performed by running:
 
 and manually calling the endpoints using rest.http-file to confirm that the API
 responds correctly in a real runtime environment.
+
+### rest.http
+
+The file rest.http is included for manual testing and quick endpoint
+verification. It can be used with the **REST Client** extension in Visual Studio
+Code. The file is used for debugging and validating the API manually.
